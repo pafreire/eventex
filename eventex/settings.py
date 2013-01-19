@@ -1,6 +1,6 @@
 # Django settings for eventex project.
 
-import dj_database_url	
+import dj_database_url
 from unipath import Path
 PROJECT_DIR = Path(__file__).parent
 
