@@ -1,75 +1,16 @@
-<!doctype html>
+{% extends 'base.html' %}
+{% block content %}
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+       <h1>Eventex</h1>
+       <img src="{{ STATIC_URL }}img/ticket.png" alt="Ingresso Eventex">
+	      <p>
+	         <strong><a href="/inscricao/">Inscreva-se já!</a></strong>
+	      </p>
 
-	<title>Eventex</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="static/css/reset.css">
-	<link rel="stylesheet" href="static/css/animate.css">
-	<link rel="stylesheet" href="static/css/styles.css">
-        <link href='http://fonts.googleapis.com/css?family=Vampiro+One' rel='stylesheet' type='text/css'>
+              <p>
+	          Para dúvidas e mais informações entre em contato com
+	          <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a>
+	      </p>
+ 	      <hr>
 
-</head>
-
-<body>
-  <ul>
-    <li>
-      <a href="#1">
-        <h2></h2>
-	<h4><p></p></h4>
-        <h2>Abertura das inscrições em 20/01/2013</h2>
-      </a>     
-    </li>
-
-    <li class="dir">
-      <a href="#2">
-        <h2></h2>
-	<h4><p></p></h4>
-        <h2>O evento mais sensacional do ano depois do Dev in Rio!</h2>
-      </a>      
-    </li>
-  </ul>
-
-    <div id="container">
-	<h1>Eventex</h1>
-	    <img src="static/img/ticket.png" alt="Ingresso Eventex">
-            <p> Para dúvidas e mais informações entre em contato com 
-            <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a></p>
-      </a>
-
-    <h2></h2>
-    <h3>
-    <hr>
-    </h3> 
-    <div id="footer">
-      <h3>&copy; 2013. <a rel="license" href="http://pafreire-eventex.herokuapp.com" class="footer">EventeX</a>, some rights reserved. 
-      <a href="http://www.djangoproject.com/">
-      <img src="https://www.djangoproject.com/m/img/badges/djangoproject120x25_grey.gif" border="0" alt="A Django project." title="A Django project." /></a>
-      </h3>
-    </div>
-      
-    </div>
-
-  <ul>
-
-    <li>
-      <a href="#3">
-        <h2></h2>
-	<h4><p></p></h4>
-        <h2>Você não pode perder esta oportunidade!</h2>
-      </a>     
-    </li>
-  </ul>
-
-</body>
-</html>
-	
-	
-	
-	
-	
-		
-	
+{% endblock content %}
